@@ -70,14 +70,23 @@
                     <div class="content-designed-for-the-future">
                         <h2>Designed for the future</h2>
                         <div class="section-1">
+                            <!-- Forma de colocar imagenes autoajustables de diferentes fuentes (varias imagenes) -->
+                            <picture>
+                                <source media="(max-width: 567px)" srcset="./images/german-shepherd-mobile.jpg" />
+                                <source media="(min-width: 768px)" srcset="./images/german-shepherd-desktop.jpg" />
+
+                                <img class="img img-designed-for-the-future" src="./images/german-shepherd-mobile.jpg" alt="Image: Ilustration Editor Desktop" />
+                            </picture>
+
+                            <!-- Forma convencional de agregar imagenes -->
+                            <!-- <img class="img img-designed-for-the-future" src="./images/illustration-editor-mobile.svg" alt="Image: Ilustration Editor Desktop"> -->
+                        </div>
+                        <div class="section-2">
                             <h3>Introducing an extensible editor</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in nihil eius aperiam, eaque saepe natus delectus ratione maxime ducimus laboriosam blanditiis explicabo odit! Molestiae!</p>
 
                             <h3>Robust content management</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sapiente corrupti rerum asperiores perferendis nisi, quasi commodi? Architecto, nemo pariatur.</p>
-                        </div>
-                        <div class="section-2">
-                            <img src="./images/illustration-editor-desktop.svg" alt="Image: Ilustration Editor Desktop">
                         </div>
                     </div>
                 </div>
