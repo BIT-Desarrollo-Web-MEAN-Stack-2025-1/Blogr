@@ -159,14 +159,46 @@ body {
     margin: 0 auto;
 }
 
-@media ( min-width: 567px ) {}
-@media ( min-width: 768px ) {
-    .content-designed-for-the-future {
-        display: flex;
-        gap: 1rem;
-        align-items: center;
-        justify-content: center;
-    }
+/** Main: State of the art */
+.section-state-of-the-art.section {
+    margin: 24rem 0 0;
+    color: white;
+}
+.bg-jacarta {
+    background: var(--Jacarta);
+    height: 60rem;
+    border-radius: 0 12rem;
+}
+
+.content-state-of-the-art {
+    height: 60rem;
+}
+
+.content-state-of-the-art .section-1 {
+    display: flex;
+    position: relative;
+    top: -18rem;
+}
+
+.img-state-of-art {
+    width: 100%;
+    max-width: 100%;
+}
+
+.content-state-of-the-art .section-2 {
+    position: relative;
+    top: -16rem;
+}
+
+.content-state-of-the-art h2 {
+    font-size: 3.7rem;
+    font-weight: normal;
+}
+
+.content-state-of-the-art p {
+    text-align: left;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
 }
 
 
@@ -228,9 +260,47 @@ body {
         display: none;
     }    
     /** Main: Section Designed for the Future */
-    .section-1,
-    .section-2 {
+    .section-designed-for-the-future .section-1,
+    .section-designed-for-the-future .section-2 {
         flex: 1;
+    }
+    .content-designed-for-the-future {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    /** Main: Section State of the art  */
+    .bg-jacarta {
+        height: 23rem;
+    }
+    .content-state-of-the-art {
+        display: flex;
+        color: orange;
+        border: 3px solid orange;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-state-of-the-art .section-1 {
+        display: flex;
+        position: relative;
+        top: -4rem;
+        /* border: 3px solid yellow; */
+        flex: 1 0 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-state-of-art {
+        width: 70%;
+        max-width: 70%;
+    }
+    .content-state-of-the-art .section-2 {
+        position: relative;
+        top: -6rem;
+        height: 19rem;
+        flex: 1 0 50%;
+        width: 83%;
     }
 
 }
