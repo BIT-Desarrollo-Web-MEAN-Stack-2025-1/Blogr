@@ -286,7 +286,7 @@ body {
     }
     /** Main: Section State of the art  */
     .section-state-of-the-art {
-        margin: 12rem 0 0 0;
+        margin: 12rem 0;
     }
     .bg-jacarta {
         height: 29rem;
@@ -295,7 +295,7 @@ body {
     .content-state-of-the-art {
         display: flex;
         color: orange;
-        border: 3px solid orange;
+        /* border: 3px solid orange; */
         justify-content: center;
         align-items: center;
     }
@@ -303,7 +303,7 @@ body {
         display: flex;
         position: relative;
         top: -15rem;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
         flex: 1 0 50%;
         justify-content: center;
         align-items: center;
@@ -323,7 +323,7 @@ body {
         height: 32rem;
         flex: 1 0 50%;
         width: 83%;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
     }
 
     .content-state-of-the-art .section-2-content {
