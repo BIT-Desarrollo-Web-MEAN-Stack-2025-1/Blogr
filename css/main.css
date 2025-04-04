@@ -53,6 +53,12 @@ body {
     font-weight: bold;
 }
 
+.navbar__left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
 .navbar__center {
     display: flex;
     justify-content: space-between;
@@ -119,8 +125,8 @@ body {
 .section-call-to-action {
     background: var(--Coral-Reef);
     display: flex;
-    height: 44rem;
-    border-radius: 0 0 0 12rem;
+    /* height: 44rem; */
+    border-radius: 0 0 0 4rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -160,13 +166,13 @@ body {
 }
 
 /** Main: State of the art */
-.section-state-of-the-art.section {
+.section-state-of-the-art {
     margin: 24rem 0 0;
     color: white;
 }
 .bg-jacarta {
     background: var(--Jacarta);
-    height: 60rem;
+    height: 47rem;
     border-radius: 0 12rem;
 }
 
@@ -177,12 +183,14 @@ body {
 .content-state-of-the-art .section-1 {
     display: flex;
     position: relative;
-    top: -18rem;
+    top: -13rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-state-of-art {
-    width: 100%;
-    max-width: 100%;
+    width: 30rem;
+    max-width: 30rem;
 }
 
 .content-state-of-the-art .section-2 {
@@ -231,6 +239,9 @@ body {
         max-width: 56rem;
         padding: 0 1.6rem;
     }
+    .bg-jacarta {
+        height: 40rem;
+    }
 }
 @media ( min-width: 768px ) {
     .container {
@@ -270,10 +281,16 @@ body {
         align-items: center;
         justify-content: center;
         flex-direction: row-reverse;
+        height: 30rem;
+        margin: 9rem 0 6rem 0;
     }
     /** Main: Section State of the art  */
+    .section-state-of-the-art {
+        margin: 12rem 0 0 0;
+    }
     .bg-jacarta {
-        height: 23rem;
+        height: 29rem;
+        border-radius: 0 4rem;
     }
     .content-state-of-the-art {
         display: flex;
@@ -285,22 +302,32 @@ body {
     .content-state-of-the-art .section-1 {
         display: flex;
         position: relative;
-        top: -4rem;
-        /* border: 3px solid yellow; */
+        top: -15rem;
+        border: 3px solid blue;
         flex: 1 0 50%;
         justify-content: center;
         align-items: center;
+        height: 32rem;
     }
     .img-state-of-art {
-        width: 70%;
-        max-width: 70%;
+        width: 40rem;
+        max-width: 40rem;
     }
     .content-state-of-the-art .section-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
         position: relative;
-        top: -6rem;
-        height: 19rem;
+        top: -15rem;
+        height: 32rem;
         flex: 1 0 50%;
         width: 83%;
+        border: 3px solid blue;
+    }
+
+    .content-state-of-the-art .section-2-content {
+        margin-right: 10rem;
     }
 
 }
